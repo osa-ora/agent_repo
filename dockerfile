@@ -1,4 +1,4 @@
-FROM FROM image-registry.openshift-image-registry.svc:5000/openshift/tfs-agent:latest
+FROM image-registry.openshift-image-registry.svc:5000/openshift/tfs-agent:latest
 WORKDIR /azp
 
 COPY ./start.sh .
